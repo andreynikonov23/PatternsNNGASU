@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="766.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.nngasu.controllers.MainController">
+   <children>
+      <Text layoutX="34.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Архитектура ПО" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutX="51.0" layoutY="100.0" prefHeight="200.0" prefWidth="426.0">
+         <children>
+            <Text fx:id="decoratorLink" fill="BLUE" layoutX="14.0" layoutY="27.0" onMouseClicked="#openDecorator" strokeType="OUTSIDE" strokeWidth="0.0" text="- Decorator" underline="true">
+               <font>
+                  <Font name="Arial Italic" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Text>
+            <Text fx:id="factoryLink" fill="BLUE" layoutX="14.0" layoutY="44.0" onMouseClicked="#openFactory" strokeType="OUTSIDE" strokeWidth="0.0" text="- Factory" underline="true">
+               <font>
+                  <Font name="Arial Italic" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Text>
+            <Text fx:id="abstractFactoryLink" fill="BLUE" layoutX="14.0" layoutY="61.0" onMouseClicked="#openAbstractFactory" strokeType="OUTSIDE" strokeWidth="0.0" text="- AbstractFactory" underline="true">
+               <font>
+                  <Font name="Arial Italic" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Text>
+            <Text fx:id="facadeLink" fill="BLUE" layoutX="14.0" layoutY="82.0" onMouseClicked="#openFacade" strokeType="OUTSIDE" strokeWidth="0.0" text="- Facade" underline="true">
+               <font>
+                  <Font name="Arial Italic" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Text>
+            <Text fx:id="proxyLink" fill="BLUE" layoutX="14.0" layoutY="103.0" onMouseClicked="#openProxy" strokeType="OUTSIDE" strokeWidth="0.0" text="- Proxy" underline="true">
+               <font>
+                  <Font name="Arial Italic" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Text>
+            <Text fx:id="singletonLink" fill="BLUE" layoutX="14.0" layoutY="124.0" onMouseClicked="#openSingleton" strokeType="OUTSIDE" strokeWidth="0.0" text="- Singleton" underline="true">
+               <font>
+                  <Font name="Arial Italic" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Text>
+            <Text fx:id="strategyLink" fill="BLUE" layoutX="14.0" layoutY="145.0" onMouseClicked="#openStrategy" strokeType="OUTSIDE" strokeWidth="0.0" text="- Strategy" underline="true">
+               <font>
+                  <Font name="Arial Italic" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+   <padding>
+      <Insets left="30.0" right="30.0" top="30.0" />
+   </padding>
+</AnchorPane>

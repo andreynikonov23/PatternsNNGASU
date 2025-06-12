@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="203.0" prefWidth="456.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.nngasu.controllers.absfactory.AbstractFactoryController">
+   <children>
+      <ComboBox fx:id="comboBox" layoutX="28.0" layoutY="49.0" onAction="#initTable" prefWidth="150.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Text layoutX="217.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Сhoose a car to find out the prices" />
+      <TableView fx:id="tableView" layoutX="117.0" layoutY="81.0" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="byColumn" prefWidth="100.0" text="BY" />
+          <TableColumn fx:id="ruColumn" prefWidth="100.0" text="RU" />
+        </columns>
+      </TableView>
+   </children>
+   <padding>
+      <Insets left="50.0" top="40.0" />
+   </padding>
+</AnchorPane>
