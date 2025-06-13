@@ -31,7 +31,7 @@ public class MainController {
     void openSingleton(MouseEvent event) { show("/view/singleton/singleton.fxml");}
 
     @FXML
-    void openStrategy(MouseEvent event) {}
+    void openStrategy(MouseEvent event) { show("/view/strategy/strategy.fxml");}
 
     private void show(String solutionFile) {
         FXMLLoader loader = new FXMLLoader(getClass().getResource(solutionFile));
